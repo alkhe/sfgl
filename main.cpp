@@ -1,7 +1,7 @@
-#include "GameApp.h"
+#include "Implementation.h"
 
 int main() {
-	GameApp game("Window", 800, 600);
+	Implementation game("Window", 800, 600);
 	game.run();
 	return 0;
 }
