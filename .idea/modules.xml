@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$USER_HOME$/IdeaProjects/sfgl/.idea/mattgl.iml" filepath="$USER_HOME$/IdeaProjects/sfgl/.idea/mattgl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/sfgl.iml" filepath="$PROJECT_DIR$/.idea/sfgl.iml" />
     </modules>
   </component>
 </project>

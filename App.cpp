@@ -65,6 +65,11 @@ void App::handleEvent(sf::Event const& event) {
 		case sf::Event::Closed:
 			_window->close();
 			break;
+		case sf::Event::KeyPressed:
+			if (event.key.control && event.key.code == sf::Keyboard::Q) {
+				_window->close();
+			}
+			break;
 		default:
 			break;
 	}
