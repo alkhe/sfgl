@@ -57,17 +57,17 @@ void App::render(sf::Time const &time) {
 }
 
 void App::exit() {
-
+	_window->close();
 }
 
 void App::handleEvent(sf::Event const& event) {
 	switch (event.type) {
 		case sf::Event::Closed:
-			_window->close();
+			exit();
 			break;
 		case sf::Event::KeyPressed:
 			if (event.key.control && event.key.code == sf::Keyboard::Q) {
-				_window->close();
+				exit();
 			}
 			break;
 		default:

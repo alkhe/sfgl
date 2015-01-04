@@ -33,6 +33,8 @@ void Implementation::render(sf::Time const& time) {
 	glVertex2f(.5f, .5f);
 	glVertex2f(0, -.5f);
 	glEnd();
+
+	glFlush();
 }
 
 void Implementation::exit() {
@@ -44,6 +46,12 @@ void Implementation::handleEvent(sf::Event const& event) {
 
 	switch (event.type) {
 		case sf::Event::KeyPressed:
+			break;
+		case sf::Event::MouseMoved:
+			break;
+		case sf::Event::MouseButtonPressed:
+			break;
+		case sf::Event::MouseWheelMoved:
 			break;
 		default:
 			break;
